@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Regisration Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        th{
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            color: red;
+            margin-top: 2px;
+        }
+        body{
+            background-color: purple;
+        }
+        td{
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <table align="center">
+        <tr align="left">
+        <th>Professional Details</th>
+        </tr>
+        <tr>
+        <td>Firstname :</td>
+        <td><input type="text" required placeholder="PLease enter Firstname"></td>
+        </tr>
+        <tr>
+        <td>Lastname :</td>
+        <td><input type="text" required placeholder="PLease enter Lastname"></td>
+        </tr>
+        <tr>
+        <td>Date of Birth :</td>
+        <td><input type="date" required></td>
+        </tr>
+        <tr>
+        <td>Password :</td>
+        <td><input type="password" required placeholder="PLease enter Password"></td>
+        </tr>
+        <tr>
+        <td>Email-ID :</td>
+        <td><input type="email" required placeholder="PLease enter Email-ID"></td>
+        </tr>
+        <tr>
+        <td>Gender :</td>
+        <td><input type="radio"  >Male
+            <input type="radio"  >Female
+            <input type="radio"  >Others</td>
+        </tr>
+        <tr>
+        <td>MobileNumber :</td>
+        <td><input type="text" required placeholder="PLease enter MobileNumber" maxlength="10"></td>
+        </tr>
+        <tr>
+        <td>Hobby :</td>
+        <td><input type="checkbox" >Vollyball
+            <input type="checkbox" > Cricket
+            <input type="checkbox" >Reading</td>
+        </tr>
+        <tr>
+        <th align="left">Address :</th>
+        </tr>
+        <tr>
+        <td><textarea name="message" rows="5" cols="50" required>
+        </textarea></td>
+        </tr>
+        <tr>
+        <th align="Left">Qualifications</th>
+        </tr>
+        <tr>
+        <td>Qualifications :</td>
+        <td><select>
+        <option></option>
+        <option>Graduation</option>
+        <option>Post Graduation</option>
+        <option>class 10</option>
+        <option>class 12</option></select></td>
+        </tr>
+        <tr>
+            <td>Upload Marksheets :</td>
+            <td><input type="file" required ></td>
+        </tr>
+        <tr>
+            <td>Languages you know :</td>
+            <td><input type="checkbox" >C
+                <input type="checkbox" >C++
+                <input type="checkbox" >HTML
+                <input type="checkbox" >Python
+                <input type="checkbox" >Dart 
+            </td>
+            </tr>
+            <tr>
+                <td>Any work experience :</td>
+                <td><input type="radio"  >None
+                    <input type="radio"  >1 year
+                    <input type="radio"  >2 years
+                    <input type="radio"  >3 years 
+                    <input type="radio"  >4 years</td>        
+            </tr>
+            <tr>
+                <td>Certificates :</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+            <tr>
+                <td><input type="reset"></td>
+            </tr>
+
+    
+    
+    
+    
+    
+                        
+        </table>
+</body>
+</html>
